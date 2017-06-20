@@ -62,7 +62,7 @@ define('OFFICE_SERVER',"http://preview.tita.com/op/view.aspx?src=");
 
 
 include(FUNCTION_DIR.'common.function.php');
-$config['app_startTime'] = mtime();
+//$config['app_startTime'] = mtime();//
 include(FUNCTION_DIR.'web.function.php');
 include(FUNCTION_DIR.'file.function.php');
 include(CORER_DIR.'Application.class.php');
